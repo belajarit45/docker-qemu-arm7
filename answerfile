@@ -7,7 +7,7 @@ auto eth0
 iface eth0 inet dhcp
     hostname alpine
 "
-TIMEZONEOPTS="-z UTC"
+TIMEZONEOPTS="Asia/Jakarta"
 PROXYOPTS="none"
 # this picks a random mirror
 APKREPOSOPTS="-r"
